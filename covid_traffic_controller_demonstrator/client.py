@@ -1,5 +1,5 @@
-import motionSensor
-import tempSensor
+from OmlaxTCP import motionSensor
+from OmlaxTCP import tempSensor
 
 def main():
 	motionSensor.setup(0)

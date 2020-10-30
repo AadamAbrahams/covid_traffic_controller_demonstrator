@@ -1,8 +1,7 @@
 from Tkinter import *
 import tkFont
-import socket
 import time
-import TCP
+from OmlaxTCP import TCP
 
 window = Tk()
 window.geometry("1920x1080")
@@ -13,11 +12,11 @@ label = Label(window, text = "There are currently \n" + str(count)+ "\n individu
 label2 = Label(window, text = "Please stand infront of the temperature sensor, \n until the screen displays either a green or red background, \n if you wish to enter.", fg = "black", bg = "light blue", font = fontStyle)
 label.pack(expand = True, fill = BOTH)
 label2.pack(expand = True, fill = BOTH)
-TCP.server_setup()
+TCP.server_setup(5)
 
 while True:
 	window.update_idletasks()
-        data = TCP.server_recieve()
+        data = TCP.server_recieve(512)
 	if (data == '1') and (Flag == True):
 		Flag = False
 		label['bg'] = "light blue"
