@@ -54,18 +54,18 @@ At a minimum, devices may communicate over the Local Area Network. If the user w
 
 Quick Usage
 -----
-**Step 1**
+**Step 1:**
 Connect the hardware modules in accordance to the circuit diagram below:
 
-**Step 2**
+**Step 2:**
 Execute the following line of code on the device that is acting as a server::
 
     python server.py
 
-**Step 3**
+**Step 3:**
 Determine the IP address of the server device.
 
-**Step 4**
+**Step 4:**
 Execute the following line of code on the device that is acting as a client::
 
     sudo pigpiod
@@ -76,7 +76,7 @@ Followed by::
     
 where HostIP is the IP address of the server device.
     
-**Complete** 
+**Complete:** 
 The demonstrator is now set up and ready to be used.
 
 Credits
