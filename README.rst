@@ -34,6 +34,7 @@ Features
 Hardware and Software Prerequisites
 -----------------------------------
 The following list of hardware devices and software packages are required to execute the demonstrator.
+
 Hardware devices:
     * Parallax 555-28027 PIR motion sensor
     * Omron D6T-1A-02 temperature sensor
