@@ -35,18 +35,19 @@ Hardware and Software Prerequisites
 -----------------------------------
 The following list of hardware devices and software packages are required to execute the demonstrator:
 Hardware devices:
-* Parallax 555-28027 PIR motion sensor
-* Omron D6T-1A-02 temperature sensor
-* Raspberry Pi
-* Any device capable of connecting to a router and executing python programs.
+    * Parallax 555-28027 PIR motion sensor
+    * Omron D6T-1A-02 temperature sensor
+    * Raspberry Pi
+    * Any device capable of connecting to a router and executing python programs.
 
 Software package:
-* pigpio 
-* smbus2 
-* crcmod
-* omlaxtcp
+    * pigpio 
+    * smbus2 
+    * crcmod
+    * omlaxtcp
 These can all be installed using the following pip command::
-pip install pigpio smbus2 crcmod omlaxtcp
+
+    pip install pigpio smbus2 crcmod omlaxtcp
 
 Credits
 -------
