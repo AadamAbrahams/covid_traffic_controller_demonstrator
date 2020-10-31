@@ -45,7 +45,7 @@ Software package:
 * smbus2 
 * crcmod
 * omlaxtcp
-These can all be installed using the following pip command:
+These can all be installed using the following pip command::
 pip install pigpio smbus2 crcmod omlaxtcp
 
 Credits
