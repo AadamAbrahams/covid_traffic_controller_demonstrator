@@ -22,7 +22,7 @@ def main():
     and if so this data is sent to the server via a TCP protocol message.
     Determines whether an individual is entering or leaving a building.
     """
-    TCP.setHostIP(sys.argv[1:])
+    TCP.setHostIP(sys.argv[0])
     while True:
         tempSensor.feverScanner(38)
         # Temperature check.
