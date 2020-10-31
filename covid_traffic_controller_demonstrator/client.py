@@ -24,7 +24,7 @@ def main():
     while True:
         tempSensor.feverScanner()
         # Temperature check.
-        motionSensor.direc_detect(0, 1)
+        motionSensor.direc_detect_with_BuzzandTemp(0, 1)
         # Direction detection check.
 
 
