@@ -16,7 +16,7 @@ COVID Traffic Controller Demonstrator
 
 
 
-This demonstrator is used to determine inward/outward human traffic for a store, using two PIR motion sensors, and relay this data to a host system to be displayed, on a monitor, at the storefront. The device also includes a thermal sensor to detect the temperature of an entering customer to establish whether they should be allowed entry. The use case purpose is to monitor and control the number of individuals within a store to limit the maximum shoppers at a given time, as well as determine eligibility of entry, as per COVID regulation.
+This demonstrator is used to determine inward/outward human traffic for a store, using two PIR motion sensors, and relay this data to a host system to be displayed, on a monitor, at the building front. The device also includes a thermal sensor to detect the temperature of an entering customer to establish whether they should be allowed entry. The use case purpose is to monitor and control the number of individuals within a store to limit the maximum shoppers at a given time, as well as determine eligibility of entry, as per COVID regulation.
 
 
 * Free software: MIT license
