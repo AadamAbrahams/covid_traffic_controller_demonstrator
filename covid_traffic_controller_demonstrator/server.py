@@ -23,8 +23,8 @@ def main():
                   fg="black", bg="light blue", font=fontStyle)
     # Creates a label to display number of individuals in building.
     label2 = Label(window,
-                   text="Please stand infront of the temperature sensor," +
-                   "\n until the screen displays either a green or red " +
+                   text="Please stand infront of the temperature sensor,"
+                   "\n until the screen displays either a green or red "
                    "background, \n if you wish to enter.",
                    fg="black", bg="light blue", font=fontStyle)
     # Creates a label to display instruction the user is requested to perform.
@@ -46,8 +46,8 @@ def main():
             # Changes top half of GUI background to light blue.
             label2['bg'] = "light blue"
             # Changes bottom half of GUI background to light blue.
-            label2['text'] = "Please stand infront of the temperature " +
-            "sensor, \n until the screen displays either a green or " +
+            label2['text'] = "Please stand infront of the temperature "
+            "sensor, \n until the screen displays either a green or "
             "red background, \n if you wish to enter."
             if count == 20:
                 pass
@@ -55,13 +55,13 @@ def main():
                 if count == 0:
                     count = count + 1
                     # Increment number of individuals in store.
-                    label['text'] = "There is currently \n" + str(count) +
+                    label['text'] = "There is currently \n" + str(count)
                     "\n individual inside the shopping center."
                     # Changes top half text to new number in building.
                 else:
                     count = count + 1
                     # Increment number of individuals in store.
-                    label['text'] = "There are currently \n" + str(count) +
+                    label['text'] = "There are currently \n" + str(count)
                     "\n individuals inside the shopping center."
                     # Changes top half text to new number in building.
             window.update_idletasks()
@@ -73,8 +73,8 @@ def main():
             # Changes top half of GUI background to light blue.
             label2['bg'] = "light blue"
             # Changes bottom half of GUI background to light blue.
-            label2['text'] = "Please stand infront of the temperature " +
-            "sensor, \n until the screen displays either a green or " +
+            label2['text'] = "Please stand infront of the temperature "
+            "sensor, \n until the screen displays either a green or "
             "red background, \n if you wish to enter."
             if count == 0:
                 pass
@@ -82,13 +82,13 @@ def main():
                 if count == 2:
                     count = count - 1
                     # Decrement number of individuals in store.
-                    label['text'] = "The is currently \n" + str(count) +
+                    label['text'] = "The is currently \n" + str(count)
                     "\n individual inside the shopping center."
                     # Changes top half text to new number in building.
                 else:
                     count = count - 1
                     # Decrement number of individuals in store.
-                    label['text'] = "There are currently \n" + str(count) +
+                    label['text'] = "There are currently \n" + str(count)
                     "\n individuals inside the shopping center."
                     # Changes top half text to new number in building.
             window.update_idletasks()
@@ -103,7 +103,7 @@ def main():
                 # Changes top half of GUI background to pale green.
                 label2['bg'] = "pale green"
                 # Changes bottom half of GUI background to pale green.
-                label2['text'] = "Normal temperature detected. " +
+                label2['text'] = "Normal temperature detected. "
                 "\n You may proceed."
                 # Changes bottom half text to indicate normal temp scan.
             if (float(data) >= 38):
@@ -112,14 +112,14 @@ def main():
                 # Changes top half of GUI background to salmon.
                 label2['bg'] = "salmon"
                 # Changes bottom half of GUI background to salmon.
-                label2['text'] = "Above normal temperature detected. " +
+                label2['text'] = "Above normal temperature detected. "
                 "\n Access denied."
                 # Changes bottom half text to indicate above normal temp scan.
                 window.update_idletasks()
                 # Updates entire GUI layout and text.
                 time.sleep(5)
-                label2['text'] = "Please stand infront of the temperature " +
-                "sensor, \n until the screen displays either a green or " +
+                label2['text'] = "Please stand infront of the temperature "
+                "sensor, \n until the screen displays either a green or "
                 "red background, \n if you wish to enter."
                 # Changes bottom half text to request temperature scan.
                 label2['bg'] = "light blue"
@@ -128,7 +128,7 @@ def main():
                 # Changes bottom half of GUI background to light blue.
             window.update_idletasks()
             # Updates entire GUI layout and text.
-        print data
+        print(data)
         # Prints message recieved from client.
 
 
