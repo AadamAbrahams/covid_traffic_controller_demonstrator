@@ -31,6 +31,23 @@ Features
 * Updates a GUI to reflect any changes corresponding to the afformentioned actions.
 * Security buzzer implementation, to warn an individual whom attempts to enter without scanning or with an above normal temperature.
 
+Hardware and Software Prerequisites
+-----------------------------------
+The following list of hardware devices and software packages are required to execute the demonstrator:
+Hardware devices:
+* Parallax 555-28027 PIR motion sensor
+* Omron D6T-1A-02 temperature sensor
+* Raspberry Pi
+* Any device capable of connecting to a router and executing python programs.
+
+Software package:
+* pigpio 
+* smbus2 
+* crcmod
+* omlaxtcp
+These can all be installed using the following pip command:
+pip install pigpio smbus2 crcmod omlaxtcp
+
 Credits
 -------
 
