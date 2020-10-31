@@ -36,7 +36,7 @@ Hardware and Software Prerequisites
 The following list of hardware devices and software packages are required to execute the demonstrator.
 
 Hardware devices:
-    * Parallax 555-28027 PIR motion sensor
+    * Parallax 555-28027 PIR motion sensor (It would be possible to use any PIR motion sensor that has a single output pin, and that outputs 1 when triggered and 0 while untriggered.)
     * Omron D6T-1A-02 temperature sensor
     * Raspberry Pi
     * Any device capable of connecting to a router and executing python programs.
