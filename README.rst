@@ -36,7 +36,7 @@ Hardware and Software Prerequisites
 The following list of hardware devices and software packages are required to execute the demonstrator.
 
 Hardware devices:
-    * Parallax 555-28027 PIR motion sensor (It would be possible to use any PIR motion sensor that has a single output pin, and that outputs 1 when triggered and 0 while untriggered.)
+    * Parallax 555-28027 PIR motion sensor (It would be possible to use any PIR motion sensor that has a single output pin, and that outputs 1 when triggered and 0 while untriggered).
     * Omron D6T-1A-02 temperature sensor
     * Raspberry Pi
     * Any device capable of connecting to a router and executing python programs.
@@ -52,6 +52,26 @@ These can all be installed using the following pip command::
 
 At a minimum, devices may communicate over the Local Area Network. If the user wishes to exchange data between devices over the internet, the device acting as the server is required to have its router port forwarding, on the relevant socket port, to the device in question.
 
+Quick Usage
+-----
+**Step 1**
+Connect the hardware modules in accordance to the circuit diagram below:
+
+**Step 2**
+Execute the following line of code on the device that is acting as a server::
+
+    python server.py
+
+**Step 3**
+Determine the IP address of the server device.
+
+**Step 4**
+Execute the following line of code on the device that is acting as a client::
+
+    python client.py HostIP
+where HostIP is the IP address of the server device.
+    
+**Complete**
 Credits
 -------
 
