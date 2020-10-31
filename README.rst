@@ -68,7 +68,12 @@ Determine the IP address of the server device.
 **Step 4**
 Execute the following line of code on the device that is acting as a client::
 
+    sudo pigpiod
+    
+Followed by::
+
     python client.py HostIP
+    
 where HostIP is the IP address of the server device.
     
 **Complete**
