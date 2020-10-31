@@ -26,7 +26,10 @@ This demonstrator is used to determine inward/outward human traffic for a store,
 Features
 --------
 
-* TODO
+* Determine whether or not an individual is entering or exiting a building.
+* Determine the temperature of an individual, and based on the result, illustrate whether they are applicable for entry.
+* Updates a GUI to reflect any changes corresponding to the afformentioned actions.
+* Security buzzer implementation, to warn an individual whom attempts to enter without scanning or with an above normal temperature.
 
 Credits
 -------
