@@ -76,7 +76,7 @@ Followed by::
     
 where HostIP is the IP address of the server device.
     
-**Complete**
+**The demonstrator is now set up and ready to be used.**
 
 Credits
 -------
