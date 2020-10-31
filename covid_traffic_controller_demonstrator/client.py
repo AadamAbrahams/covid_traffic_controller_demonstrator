@@ -22,7 +22,7 @@ def main():
     Determines whether an individual is entering or leaving a building.
     """
     while True:
-        tempSensor.feverScanner()
+        tempSensor.feverScanner(38)
         # Temperature check.
         motionSensor.direc_detect_with_BuzzandTemp(0, 1)
         # Direction detection check.
