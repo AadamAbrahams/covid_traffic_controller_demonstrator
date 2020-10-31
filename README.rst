@@ -41,7 +41,7 @@ Hardware devices:
     * Raspberry Pi
     * Any device capable of connecting to a router and executing python programs.
 
-Software package:
+Software packages:
     * pigpio 
     * smbus2 
     * crcmod
@@ -49,6 +49,8 @@ Software package:
 These can all be installed using the following pip command::
 
     pip install pigpio smbus2 crcmod omlaxtcp
+
+At a minimum, devices may communicate over the Local Area Network. If the user wishes to exchange data between devices over the internet, the device acting as the server is required to have its router port forwarding, on the relevant socket port, to the device in question.
 
 Credits
 -------
