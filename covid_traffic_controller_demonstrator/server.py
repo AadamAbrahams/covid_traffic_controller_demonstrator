@@ -1,7 +1,7 @@
 from Tkinter import *
 import tkFont
 import time
-from OmlaxTCP import TCP
+from omlaxtcp import TCP
 
 
 def main():
