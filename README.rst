@@ -55,7 +55,7 @@ At a minimum, devices may communicate over the Local Area Network. If the user w
 Quick Usage
 -----
 **Step 1:**
-Connect the hardware modules in accordance to the circuit diagram below:
+Connect the hardware modules in accordance to the circuit diagram below.
 .. image:: Circuit.jpg
     :width: 200px
     :align: center
