@@ -55,6 +55,7 @@ At a minimum, devices may communicate over the Local Area Network. If the user w
 Quick Usage
 -----
 **Step 1:**
+Connect the hardware modules in accordance to the circuit diagram below:
 
 .. image:: https://github.com/AadamAbrahams/covid_traffic_controller_demonstrator/blob/master/Circuit.jpg
 
