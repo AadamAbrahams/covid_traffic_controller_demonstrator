@@ -57,6 +57,10 @@ Quick Usage
 **Step 1:**
 Connect the hardware modules in accordance to the circuit diagram below:
 .. image:: Circuit.jpg
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: alternate text
 
 **Step 2:**
 Execute the following line of code on the device that is acting as a server::
