@@ -56,7 +56,7 @@ Quick Usage
 -----
 **Step 1:**
 Connect the hardware modules in accordance to the circuit diagram below:
-.. image:: ./Circuit.jpg
+.. image:: https://github.com/AadamAbrahams/covid_traffic_controller_demonstrator/blob/master/Circuit.jpg
     :width: 200px
     :align: center
     :height: 100px
