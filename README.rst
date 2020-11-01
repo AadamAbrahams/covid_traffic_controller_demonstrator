@@ -57,7 +57,7 @@ Quick Usage
 **Step 1:**
 Connect the hardware modules in accordance to the circuit diagram below:
 
-.. image:: https://github.com/AadamAbrahams/covid_traffic_controller_demonstrator/blob/master/Circuit.jpg
+.. image:: https://github.com/AadamAbrahams/covid_traffic_controller_demonstrator/blob/master/images/Circuit.jpg
 
 **Step 2:**
 Execute the following line of code on the device that is acting as a server::
